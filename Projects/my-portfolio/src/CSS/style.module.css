@@ -1,0 +1,98 @@
+/* Navbar Styles Starts */
+.navDiv{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1rem;
+}
+.navListStyle{
+    display:flex;
+    list-style: none;
+    font-size: 20px;
+}
+.navListStyle li{
+    padding-right: 3rem;
+}
+.navListStyle a{
+    text-decoration: none;
+    color: black;
+}
+/* Navbar Styles Ends */
+
+/* Home Page Style Starts */
+.homeDiv{
+    display: grid;
+    padding: 8rem 0rem 6rem;
+    grid-template-columns: 12rem 1fr 2rem 1fr 3rem;
+    grid-template-areas: ". info . img .";
+}
+.homeDiv h3{
+    font-size: 1.7rem;
+}
+.homeDiv h1{
+    font-size: 3rem;
+}
+.pTitle{
+    font-size: 1.5rem;
+}
+.ppara{
+    font-size: 1rem;
+}
+.homeDiv button{
+    background-color: seagreen;
+    width: 26%;
+    color: white;
+    padding: 0.8rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+.homwInnerDiv{
+    grid-area: info;
+    display: grid;
+    gap: 1rem;
+}
+.homwInnerDiv{
+    font-size: 20px;
+}
+.imgDiv{
+    grid-area: img;
+}
+/* Home Page Style Ends */
+
+/* About style Starts */
+.abtDiv>h2,h6{
+    text-align: center;
+}
+.abtDiv>h2{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.abtDiv>h6{
+    font-size: 1rem;
+    color: grey;
+}
+.abtInnerDiv{
+    display: grid;
+    padding: 8rem 0rem 6rem;
+    grid-template-columns: 12rem 1fr 1fr 3rem;
+    grid-template-areas: ". info . image";
+}
+.abtInnerDiv .imgDiv{
+    grid-area: info;
+}
+.abtDiv .abtInnerDiv .abtInfoDetailDiv{
+    grid-area: image;
+}
+
+.abtInnerDiv .imgDiv img{
+    width: 80%;
+}
+
+
+
+/* About style Ends */

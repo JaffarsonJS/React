@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: blueviolet;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+.product_navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: rgb(155, 138, 43);
+}
+.product_navbar a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}

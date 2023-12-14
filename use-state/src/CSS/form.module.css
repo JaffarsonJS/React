@@ -1,0 +1,26 @@
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.formDiv input{
+    outline: none;
+    border: none;
+    color: white;
+    width: 20%;
+    padding: 1rem 4rem;
+    background-color: blueviolet;
+}
+.formDiv input::placeholder{
+    color: white;
+}
+.formDiv button{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: gold;
+}

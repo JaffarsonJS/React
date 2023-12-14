@@ -1,0 +1,34 @@
+section{
+    background-color: blueviolet;
+}
+.inputDiv{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;   
+}
+.inputDiv input{
+    padding: 1rem 3rem;
+    width: 20%;
+    height: 10%;
+}
+
+.inputDiv button{
+    padding: 1rem 3rem;
+    text-align: center;
+}
+.listDiv{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.listDiv h4{
+    margin-bottom: 4rem;
+}
+.listDiv button{
+    height: 50%;
+    width: 10%;
+}
+
